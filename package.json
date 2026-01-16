@@ -1,0 +1,16 @@
+{
+  "name": "diario-de-bordo-pwa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve:dist": "npx serve dist",
+    "images:opt": "node images-opt.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.33.0"
+  }
+}
